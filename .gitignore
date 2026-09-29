@@ -1,0 +1,8 @@
+# original OECD downloads (~9 GB); notebook 01 re-downloads them
+data/raw/
+
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
