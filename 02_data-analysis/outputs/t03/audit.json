@@ -1,0 +1,53 @@
+{
+  "systems": [
+    "ARE",
+    "SAU",
+    "QAT",
+    "JOR",
+    "MAR",
+    "PSE"
+  ],
+  "students_before_join": 61775,
+  "students_after_join": 61775,
+  "school_records_loaded": 1973,
+  "schools_with_students": 1973,
+  "duplicate_students": 0,
+  "unmatched_students": 0,
+  "unmatched_schools": 0,
+  "predictors": [
+    "ESCS",
+    "PAREDINT",
+    "HISEI",
+    "HOMEPOS",
+    "ANXMAT",
+    "MATHEFF",
+    "MATHEF21",
+    "BELONG",
+    "BULLIED",
+    "DISCLIM",
+    "TEACHSUP",
+    "EDUSHORT",
+    "STAFFSHORT",
+    "MCLSIZE",
+    "STRATIO",
+    "SCHLTYPE",
+    "SCHSIZE"
+  ],
+  "missing_indicators": 17,
+  "mathematics_plausible_values": [
+    "PV1MATH",
+    "PV2MATH",
+    "PV3MATH",
+    "PV4MATH",
+    "PV5MATH",
+    "PV6MATH",
+    "PV7MATH",
+    "PV8MATH",
+    "PV9MATH",
+    "PV10MATH"
+  ],
+  "weight_columns": 81,
+  "newly_recoded_values": 0,
+  "missing_mathematics_values": 0,
+  "missing_or_nonpositive_weight_values": 0
+}
