@@ -1,0 +1,9 @@
+step,rows,columns,what
+1-2,61775,111,"students: six systems, selected columns"
+1-2,1973,9,"schools: six systems, school predictors + TOTAT"
+3,61775,119,school data joined; SCH_NODATA flag added
+5,61775,120,implausible STRATIO / SCHSIZE set to NaN (raw values kept)
+6,61775,121,SCHL_PRIVATE added
+7,61775,122,SCHSIZE_log added
+8,61775,132,10 classification targets added
+10,61775,151,missing indicators + side-question flags added; final column order

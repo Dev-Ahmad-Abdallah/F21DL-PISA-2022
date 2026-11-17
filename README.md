@@ -9,6 +9,7 @@ The data is already in the repo, extracted and cleaned into a fast format. Clone
 ```
 data/                    shared by every stage (see "The data" below)
   parquet/               all ten PISA 2022 files, one folder each
+  clean/                 the six-system clean table + columns.json (notebook 01) and folds.csv (notebook 03), in 02_data-analysis/notebooks/
   data_dictionary.csv    all 12,759 variables: label, type, answer codes, % missing
   inventory.csv          rows, columns and countries per file
 00_pre-project/          idea selection: getting the data and a first look at it (AI-assisted, see its AI_USE.md)

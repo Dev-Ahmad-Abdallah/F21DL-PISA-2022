@@ -1,0 +1,26 @@
+inputs,fold,metric,value
+family group alone,0,AUC,0.7463965977580402
+all 5 groups,0,AUC,0.8136808148658248
+"all 5 groups, no missing flags",0,AUC,0.7963318966329174
+all 5 groups,0,RMSE (ridge),64.85480568661139
+all 5 groups,0,R² (ridge),0.38062881180210095
+family group alone,1,AUC,0.7468340547409646
+all 5 groups,1,AUC,0.808523189177242
+"all 5 groups, no missing flags",1,AUC,0.7905150136797117
+all 5 groups,1,RMSE (ridge),63.97406117696388
+all 5 groups,1,R² (ridge),0.3634004098089515
+family group alone,2,AUC,0.7343714407469242
+all 5 groups,2,AUC,0.7942984723281098
+"all 5 groups, no missing flags",2,AUC,0.7734151257625612
+all 5 groups,2,RMSE (ridge),64.31136320230978
+all 5 groups,2,R² (ridge),0.3195457768587885
+family group alone,3,AUC,0.7374098532561522
+all 5 groups,3,AUC,0.8039381311154571
+"all 5 groups, no missing flags",3,AUC,0.78891287038422
+all 5 groups,3,RMSE (ridge),65.25744199668246
+all 5 groups,3,R² (ridge),0.3730774169883416
+family group alone,4,AUC,0.7239898560503586
+all 5 groups,4,AUC,0.7975849467150138
+"all 5 groups, no missing flags",4,AUC,0.778197879481429
+all 5 groups,4,RMSE (ridge),63.756987878852016
+all 5 groups,4,R² (ridge),0.36751156251982287
