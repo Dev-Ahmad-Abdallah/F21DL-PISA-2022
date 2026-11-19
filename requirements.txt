@@ -2,6 +2,7 @@ pandas>=3.0,<4
 numpy>=2.2
 pyarrow>=20
 matplotlib>=3.9
+scikit-learn>=1.6   # clustering and folds in 02_data-analysis, and every model
 pyreadstat>=1.2      # only needed to rebuild from the OECD SPSS files (notebook 01)
 jupyterlab>=4
 ipykernel>=6
