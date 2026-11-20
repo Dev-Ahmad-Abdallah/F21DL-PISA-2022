@@ -1,0 +1,373 @@
+trial,variant,task,system,metric,score,se
+ceiling,oracle,classification,pooled,roc_auc,0.9695930146172402,0.0009079246113553969
+ceiling,oracle,classification,pooled,balanced_acc,0.8890036662960593,0.0027306089135607815
+ceiling,oracle,classification,ARE,roc_auc,0.9734014331522058,0.0017286890511383215
+ceiling,oracle,classification,ARE,balanced_acc,0.9093559775910357,0.003297968359573894
+ceiling,oracle,classification,SAU,roc_auc,0.9536694610314905,0.003358384387863481
+ceiling,oracle,classification,SAU,balanced_acc,0.8631829389337058,0.006336599377416358
+ceiling,oracle,classification,QAT,roc_auc,0.971804948547177,0.002958090817500843
+ceiling,oracle,classification,QAT,balanced_acc,0.903035128671557,0.005566689482200161
+ceiling,oracle,classification,JOR,roc_auc,0.9602253345987555,0.0034801182970516436
+ceiling,oracle,classification,JOR,balanced_acc,0.8344165855046397,0.010389836787215697
+ceiling,oracle,classification,MAR,roc_auc,0.9695915288911594,0.003632360411830711
+ceiling,oracle,classification,MAR,balanced_acc,0.8635714467248276,0.011439672688055322
+ceiling,oracle,classification,PSE,roc_auc,0.9651544966809897,0.003288139166769971
+ceiling,oracle,classification,PSE,balanced_acc,0.8552278724734534,0.008457072864267001
+ceiling,gradient boosting,classification,pooled,roc_auc,0.8185836542762226,0.003632195763039
+ceiling,gradient boosting,classification,pooled,pr_auc,0.903356419577136,0.0023275122149531
+ceiling,gradient boosting,classification,pooled,balanced_acc,0.7350098443165207,0.0035170448885885
+ceiling,gradient boosting,classification,pooled,recall_below,0.8230587096994597,0.0042484504081412
+ceiling,gradient boosting,classification,pooled,recall_above,0.6469609789335713,0.0093607202311616
+ceiling,gradient boosting,classification,ARE,roc_auc,0.824302842849877,0.0055087246299855
+ceiling,gradient boosting,classification,ARE,pr_auc,0.8100581427006828,0.0086604403017437
+ceiling,gradient boosting,classification,ARE,balanced_acc,0.7237568611583897,0.0066588184330715
+ceiling,gradient boosting,classification,ARE,recall_below,0.5904185124768503,0.0170927225674595
+ceiling,gradient boosting,classification,ARE,recall_above,0.8570952098399273,0.0074545369797337
+ceiling,gradient boosting,classification,JOR,roc_auc,0.7713991323313204,0.0142033180538261
+ceiling,gradient boosting,classification,JOR,pr_auc,0.9338676009938168,0.0060065734063861
+ceiling,gradient boosting,classification,JOR,balanced_acc,0.6778419808138205,0.0123830717775858
+ceiling,gradient boosting,classification,JOR,recall_below,0.8802918074827234,0.0090665698018867
+ceiling,gradient boosting,classification,JOR,recall_above,0.4753921541449178,0.0228701214532628
+ceiling,gradient boosting,classification,MAR,roc_auc,0.8089447425601382,0.0153514547641631
+ceiling,gradient boosting,classification,MAR,pr_auc,0.9450550947423664,0.0060353716347504
+ceiling,gradient boosting,classification,MAR,balanced_acc,0.654839953032684,0.0207233030995962
+ceiling,gradient boosting,classification,MAR,recall_below,0.9372076415493245,0.009047155655779
+ceiling,gradient boosting,classification,MAR,recall_above,0.372472264516044,0.0472420083879465
+ceiling,gradient boosting,classification,PSE,roc_auc,0.783127288596005,0.0130458041671887
+ceiling,gradient boosting,classification,PSE,pr_auc,0.9243255755330242,0.0075058942738996
+ceiling,gradient boosting,classification,PSE,balanced_acc,0.6617680462199581,0.0133186677190216
+ceiling,gradient boosting,classification,PSE,recall_below,0.92431593031365,0.0066227717709887
+ceiling,gradient boosting,classification,PSE,recall_above,0.3992201621262662,0.0300518683056748
+ceiling,gradient boosting,classification,QAT,roc_auc,0.8135099162328341,0.0133967511312065
+ceiling,gradient boosting,classification,QAT,pr_auc,0.8359622149088569,0.0115179199382943
+ceiling,gradient boosting,classification,QAT,balanced_acc,0.7331330176307709,0.0117849310323242
+ceiling,gradient boosting,classification,QAT,recall_below,0.7015224544245855,0.0211839868533779
+ceiling,gradient boosting,classification,QAT,recall_above,0.7647435808369563,0.0149869728157719
+ceiling,gradient boosting,classification,SAU,roc_auc,0.7261838731967748,0.0074131524500253
+ceiling,gradient boosting,classification,SAU,pr_auc,0.8502105810354429,0.0078322778471671
+ceiling,gradient boosting,classification,SAU,balanced_acc,0.6599969306663411,0.0076036807513325
+ceiling,gradient boosting,classification,SAU,recall_below,0.7673855064520512,0.0130411588858305
+ceiling,gradient boosting,classification,SAU,recall_above,0.5526083548806313,0.020557284002008
+ceiling,oracle,regression,pooled,rmse,29.063780662651784,0.15144462382648477
+ceiling,oracle,regression,pooled,r2,0.8691744610158002,0.002938485580971523
+ceiling,oracle,regression,ARE,rmse,33.1678494767723,0.430079328352009
+ceiling,oracle,regression,ARE,r2,0.8924782713396452,0.003880167779509071
+ceiling,oracle,regression,SAU,rmse,28.62615879086267,0.3996661991723026
+ceiling,oracle,regression,SAU,r2,0.8089824904826963,0.006559459324439666
+ceiling,oracle,regression,QAT,rmse,28.73525352385467,0.4461252320015477
+ceiling,oracle,regression,QAT,r2,0.8927279237736558,0.006694688290105533
+ceiling,oracle,regression,JOR,rmse,28.230406852813655,0.35891588954538434
+ceiling,oracle,regression,JOR,r2,0.7898015254227311,0.007323349168603019
+ceiling,oracle,regression,MAR,rmse,26.590511693938787,0.2242502385856644
+ceiling,oracle,regression,MAR,r2,0.8176415033677433,0.009660349320713874
+ceiling,oracle,regression,PSE,rmse,28.570874369390673,0.3580904981153155
+ceiling,oracle,regression,PSE,r2,0.8112195329491925,0.006128187106934776
+ceiling,gradient boosting,regression,pooled,rmse,60.74972179882876,0.3279375726474116
+ceiling,gradient boosting,regression,pooled,mae,47.674950179960774,0.2762854721212754
+ceiling,gradient boosting,regression,pooled,r2,0.4284952393040718,0.0117087132117594
+ceiling,gradient boosting,regression,ARE,rmse,74.37233708187091,1.220870616004281
+ceiling,gradient boosting,regression,ARE,mae,59.066272117929906,1.0687958089630585
+ceiling,gradient boosting,regression,ARE,r2,0.4604375350090623,0.0087251961480703
+ceiling,gradient boosting,regression,JOR,rmse,54.2697682242695,0.878035185957029
+ceiling,gradient boosting,regression,JOR,mae,43.05042098617416,0.6654062963523628
+ceiling,gradient boosting,regression,JOR,r2,0.2218168930160623,0.0355104956847463
+ceiling,gradient boosting,regression,MAR,rmse,52.35708355101299,1.0195756426238212
+ceiling,gradient boosting,regression,MAR,mae,41.3841443996591,0.7632378942409533
+ceiling,gradient boosting,regression,MAR,r2,0.2960000799659924,0.0229723141168746
+ceiling,gradient boosting,regression,PSE,rmse,55.34184102827762,0.813292590739077
+ceiling,gradient boosting,regression,PSE,mae,43.86822448200518,0.6248537962639532
+ceiling,gradient boosting,regression,PSE,r2,0.2922854615630765,0.0153006630218325
+ceiling,gradient boosting,regression,QAT,rmse,66.32188720247392,0.9674787321270714
+ceiling,gradient boosting,regression,QAT,mae,52.38713450566864,0.8475154104331468
+ceiling,gradient boosting,regression,QAT,r2,0.429429523261943,0.0318612769662552
+ceiling,gradient boosting,regression,SAU,rmse,58.5094091141478,0.9176605276195046
+ceiling,gradient boosting,regression,SAU,mae,46.15457621745582,0.6418369161538179
+ceiling,gradient boosting,regression,SAU,r2,0.2027269393870895,0.0197140110374521
+ceiling,plausible-value noise,regression,ARE,noise_share,0.09646196586181972,
+ceiling,plausible-value noise,regression,SAU,noise_share,0.17185708700861968,
+ceiling,plausible-value noise,regression,QAT,noise_share,0.09468327269747992,
+ceiling,plausible-value noise,regression,JOR,noise_share,0.18867548696925987,
+ceiling,plausible-value noise,regression,MAR,noise_share,0.1621678338743854,
+ceiling,plausible-value noise,regression,PSE,noise_share,0.16924528389443683,
+ceiling,plausible-value noise,regression,pooled,noise_share,0.11764066242767558,
+ceiling,ESCS alone,regression,ARE,r2,0.05822483911358829,
+ceiling,ESCS alone,regression,SAU,r2,0.06417315481428416,
+ceiling,ESCS alone,regression,QAT,r2,0.11676385288197726,
+ceiling,ESCS alone,regression,JOR,r2,0.05243292675645541,
+ceiling,ESCS alone,regression,MAR,r2,0.08464446220380588,
+ceiling,ESCS alone,regression,PSE,r2,0.0741521666532021,
+ceiling,ESCS alone,regression,pooled,r2,0.13157597100194557,
+ceiling,gradient boosting share of oracle,regression,ARE,r2_share_of_oracle,0.515908958005137,
+ceiling,gradient boosting share of oracle,regression,SAU,r2_share_of_oracle,0.2505949656167814,
+ceiling,gradient boosting share of oracle,regression,QAT,r2_share_of_oracle,0.48103068339869864,
+ceiling,gradient boosting share of oracle,regression,JOR,r2_share_of_oracle,0.28085143656482264,
+ceiling,gradient boosting share of oracle,regression,MAR,r2_share_of_oracle,0.36201694599260464,
+ceiling,gradient boosting share of oracle,regression,PSE,r2_share_of_oracle,0.3603037768339617,
+ceiling,gradient boosting share of oracle,regression,pooled,r2_share_of_oracle,0.49299106050963737,
+ceiling,gradient boosting share of oracle,classification,ARE,roc_auc_share_of_oracle,0.6850482912366018,
+ceiling,gradient boosting share of oracle,classification,SAU,roc_auc_share_of_oracle,0.4985653490594438,
+ceiling,gradient boosting share of oracle,classification,QAT,roc_auc_share_of_oracle,0.6644905213440876,
+ceiling,gradient boosting share of oracle,classification,JOR,roc_auc_share_of_oracle,0.589709240078967,
+ceiling,gradient boosting share of oracle,classification,MAR,roc_auc_share_of_oracle,0.6579010130136834,
+ceiling,gradient boosting share of oracle,classification,PSE,roc_auc_share_of_oracle,0.6086736570670586,
+ceiling,gradient boosting share of oracle,classification,pooled,roc_auc_share_of_oracle,0.6784250283959109,
+random split,school folds,classification,pooled,roc_auc,0.8185836542762226,0.0036321957630390156
+random split,school folds,classification,pooled,balanced_acc,0.7350098443165207,0.0035170448885885304
+random split,school folds,classification,ARE,roc_auc,0.824302842849877,0.005508724629985536
+random split,school folds,classification,ARE,balanced_acc,0.7237568611583897,0.006658818433071579
+random split,school folds,classification,SAU,roc_auc,0.7261838731967748,0.007413152450025348
+random split,school folds,classification,SAU,balanced_acc,0.6599969306663411,0.00760368075133254
+random split,school folds,classification,QAT,roc_auc,0.8135099162328341,0.013396751131206527
+random split,school folds,classification,QAT,balanced_acc,0.7331330176307709,0.011784931032324232
+random split,school folds,classification,JOR,roc_auc,0.7713991323313204,0.014203318053826101
+random split,school folds,classification,JOR,balanced_acc,0.6778419808138205,0.012383071777585802
+random split,school folds,classification,MAR,roc_auc,0.8089447425601382,0.015351454764163133
+random split,school folds,classification,MAR,balanced_acc,0.654839953032684,0.020723303099596253
+random split,school folds,classification,PSE,roc_auc,0.783127288596005,0.0130458041671887
+random split,school folds,classification,PSE,balanced_acc,0.6617680462199581,0.01331866771902162
+random split,random folds,classification,pooled,roc_auc,0.8251308710828275,0.003113003566506479
+random split,random folds,classification,pooled,balanced_acc,0.7404197131886439,0.003493897846053347
+random split,random folds,classification,ARE,roc_auc,0.8278428675205916,0.00484318485401989
+random split,random folds,classification,ARE,balanced_acc,0.7286205705378411,0.0042049452004777966
+random split,random folds,classification,SAU,roc_auc,0.7347087493491574,0.007052119439777211
+random split,random folds,classification,SAU,balanced_acc,0.6654746149268096,0.007567719333383504
+random split,random folds,classification,QAT,roc_auc,0.8214603171947539,0.008991239927789205
+random split,random folds,classification,QAT,balanced_acc,0.7391042164908769,0.010543012190203241
+random split,random folds,classification,JOR,roc_auc,0.7785981156510229,0.010635203679539944
+random split,random folds,classification,JOR,balanced_acc,0.6812645666417687,0.010056506634542616
+random split,random folds,classification,MAR,roc_auc,0.8248638351181696,0.005433655927765376
+random split,random folds,classification,MAR,balanced_acc,0.6738572161480786,0.007192174204816718
+random split,random folds,classification,PSE,roc_auc,0.7874139165899955,0.00929339304703974
+random split,random folds,classification,PSE,balanced_acc,0.6628672308105936,0.0081830298539798
+random split,gain of random folds,classification,pooled,roc_auc,0.006547216806604894,0.002980172677957497
+random split,gain of random folds,classification,pooled,balanced_acc,0.005409868872123183,0.003449011683947885
+random split,gain of random folds,classification,ARE,roc_auc,0.00354002467071457,0.00578513200758773
+random split,gain of random folds,classification,ARE,balanced_acc,0.0048637093794513435,0.006833319204370681
+random split,gain of random folds,classification,SAU,roc_auc,0.008524876152382661,0.008477471310947554
+random split,gain of random folds,classification,SAU,balanced_acc,0.005477684260468389,0.008668259707249541
+random split,gain of random folds,classification,QAT,roc_auc,0.007950400961919738,0.012959050063311175
+random split,gain of random folds,classification,QAT,balanced_acc,0.005971198860106077,0.013323429786386011
+random split,gain of random folds,classification,JOR,roc_auc,0.007198983319702508,0.01633950879485914
+random split,gain of random folds,classification,JOR,balanced_acc,0.0034225858279481767,0.014657838377290804
+random split,gain of random folds,classification,MAR,roc_auc,0.01591909255803145,0.016018008142617515
+random split,gain of random folds,classification,MAR,balanced_acc,0.019017263115394457,0.02125141036626639
+random split,gain of random folds,classification,PSE,roc_auc,0.004286627993990466,0.012058538055184363
+random split,gain of random folds,classification,PSE,balanced_acc,0.0010991845906356313,0.014838203562159437
+random split,school folds,regression,pooled,rmse,60.74972179882876,0.3279375726474116
+random split,school folds,regression,pooled,r2,0.4284952393040718,0.011708713211759451
+random split,school folds,regression,ARE,rmse,74.37233708187091,1.220870616004281
+random split,school folds,regression,ARE,r2,0.4604375350090623,0.008725196148070389
+random split,school folds,regression,SAU,rmse,58.5094091141478,0.9176605276195046
+random split,school folds,regression,SAU,r2,0.20272693938708958,0.01971401103745219
+random split,school folds,regression,QAT,rmse,66.32188720247392,0.9674787321270714
+random split,school folds,regression,QAT,r2,0.42942952326194306,0.031861276966255264
+random split,school folds,regression,JOR,rmse,54.2697682242695,0.878035185957029
+random split,school folds,regression,JOR,r2,0.2218168930160623,0.03551049568474639
+random split,school folds,regression,MAR,rmse,52.35708355101299,1.0195756426238212
+random split,school folds,regression,MAR,r2,0.2960000799659924,0.02297231411687464
+random split,school folds,regression,PSE,rmse,55.34184102827762,0.813292590739077
+random split,school folds,regression,PSE,r2,0.29228546156307655,0.015300663021832514
+random split,random folds,regression,pooled,rmse,59.39158268118696,0.3816565315751916
+random split,random folds,regression,pooled,r2,0.45492412141712635,0.004233903689036492
+random split,random folds,regression,ARE,rmse,73.327932221602,0.5559790465763781
+random split,random folds,regression,ARE,r2,0.47613409389560646,0.007970282419082502
+random split,random folds,regression,SAU,rmse,57.526608542245754,0.6797141305071266
+random split,random folds,regression,SAU,r2,0.2293810443798762,0.010675472570612063
+random split,random folds,regression,QAT,rmse,64.52734268962627,0.6687509663197762
+random split,random folds,regression,QAT,r2,0.4704425432130942,0.009800716958664302
+random split,random folds,regression,JOR,rmse,52.9550921510659,0.5436932780055816
+random split,random folds,regression,JOR,r2,0.2629574964039951,0.014979391589484308
+random split,random folds,regression,MAR,rmse,49.98316319769994,0.5097975385339533
+random split,random folds,regression,MAR,r2,0.3638605335087505,0.011575451718176512
+random split,random folds,regression,PSE,rmse,54.84353111038969,0.7695327645830202
+random split,random folds,regression,PSE,r2,0.3077931845591377,0.013111734870868752
+random split,gain of random folds,regression,pooled,rmse,1.3581391176418038,0.2384446693448551
+random split,gain of random folds,regression,pooled,r2,0.026428882113054563,0.009971941696260025
+random split,gain of random folds,regression,ARE,rmse,1.0444048602689273,0.8690734031364734
+random split,gain of random folds,regression,ARE,r2,0.01569655888654405,0.006485564029357132
+random split,gain of random folds,regression,SAU,rmse,0.9828005719020372,0.7203403808795341
+random split,gain of random folds,regression,SAU,r2,0.02665410499278656,0.02121904865859965
+random split,gain of random folds,regression,QAT,rmse,1.7945445128476532,1.197768695757281
+random split,gain of random folds,regression,QAT,r2,0.041013019951151315,0.03128333496499829
+random split,gain of random folds,regression,JOR,rmse,1.3146760732036047,1.006096892681607
+random split,gain of random folds,regression,JOR,r2,0.04114060338793277,0.03884987053072958
+random split,gain of random folds,regression,MAR,rmse,2.373920353313058,1.0404000984468438
+random split,gain of random folds,regression,MAR,r2,0.0678604535427581,0.02427536614635309
+random split,gain of random folds,regression,PSE,rmse,0.4983099178879355,1.0378692639622003
+random split,gain of random folds,regression,PSE,r2,0.015507722996061166,0.017271240808328214
+leave one system out,pooled model,classification,ARE,roc_auc,0.824302842849877,0.005508724629985536
+leave one system out,pooled model,classification,ARE,balanced_acc,0.7237568611583897,0.006658818433071579
+leave one system out,pooled model,classification,SAU,roc_auc,0.7261838731967748,0.007413152450025348
+leave one system out,pooled model,classification,SAU,balanced_acc,0.6599969306663411,0.00760368075133254
+leave one system out,pooled model,classification,QAT,roc_auc,0.8135099162328341,0.013396751131206527
+leave one system out,pooled model,classification,QAT,balanced_acc,0.7331330176307709,0.011784931032324232
+leave one system out,pooled model,classification,JOR,roc_auc,0.7713991323313204,0.014203318053826101
+leave one system out,pooled model,classification,JOR,balanced_acc,0.6778419808138205,0.012383071777585802
+leave one system out,pooled model,classification,MAR,roc_auc,0.8089447425601382,0.015351454764163133
+leave one system out,pooled model,classification,MAR,balanced_acc,0.654839953032684,0.020723303099596253
+leave one system out,pooled model,classification,PSE,roc_auc,0.783127288596005,0.0130458041671887
+leave one system out,pooled model,classification,PSE,balanced_acc,0.6617680462199581,0.01331866771902162
+leave one system out,other five systems,classification,ARE,roc_auc,0.798748492019625,0.006670733218302028
+leave one system out,other five systems,classification,ARE,balanced_acc,0.6911748280082575,0.004575541949735842
+leave one system out,other five systems,classification,SAU,roc_auc,0.7229695706037977,0.008312668853154865
+leave one system out,other five systems,classification,SAU,balanced_acc,0.6529091672448241,0.00840024843166743
+leave one system out,other five systems,classification,QAT,roc_auc,0.8107317100803264,0.013589696261215357
+leave one system out,other five systems,classification,QAT,balanced_acc,0.7294846428739883,0.01221110326969236
+leave one system out,other five systems,classification,JOR,roc_auc,0.7704148754533675,0.014256410021138763
+leave one system out,other five systems,classification,JOR,balanced_acc,0.6756945083889317,0.011236226099665441
+leave one system out,other five systems,classification,MAR,roc_auc,0.783293767037061,0.013036590947500183
+leave one system out,other five systems,classification,MAR,balanced_acc,0.6312415458880817,0.01932468919346661
+leave one system out,other five systems,classification,PSE,roc_auc,0.7795520204212629,0.013186227145033329
+leave one system out,other five systems,classification,PSE,balanced_acc,0.6431650112843107,0.012636970621451502
+leave one system out,gain of other five systems,classification,ARE,roc_auc,-0.025554350830252193,0.004391659199471616
+leave one system out,gain of other five systems,classification,ARE,balanced_acc,-0.03258203315013221,0.003985182014970065
+leave one system out,gain of other five systems,classification,SAU,roc_auc,-0.0032143025929770343,0.003651572445154927
+leave one system out,gain of other five systems,classification,SAU,balanced_acc,-0.007087763421517161,0.005266005708039512
+leave one system out,gain of other five systems,classification,QAT,roc_auc,-0.002778206152507727,0.0020181712450634388
+leave one system out,gain of other five systems,classification,QAT,balanced_acc,-0.0036483747567827864,0.004141817255195611
+leave one system out,gain of other five systems,classification,JOR,roc_auc,-0.0009842568779528048,0.003056992157280058
+leave one system out,gain of other five systems,classification,JOR,balanced_acc,-0.0021474724248888477,0.005034128100306238
+leave one system out,gain of other five systems,classification,MAR,roc_auc,-0.02565097552307714,0.0065396368123525235
+leave one system out,gain of other five systems,classification,MAR,balanced_acc,-0.02359840714460239,0.007545830255816717
+leave one system out,gain of other five systems,classification,PSE,roc_auc,-0.0035752681747419877,0.0032185364385978136
+leave one system out,gain of other five systems,classification,PSE,balanced_acc,-0.018603034935647286,0.005599359014275737
+leave one system out,pooled model,regression,ARE,rmse,74.37233708187091,1.220870616004281
+leave one system out,pooled model,regression,ARE,r2,0.4604375350090623,0.008725196148070389
+leave one system out,pooled model,regression,SAU,rmse,58.5094091141478,0.9176605276195046
+leave one system out,pooled model,regression,SAU,r2,0.20272693938708958,0.01971401103745219
+leave one system out,pooled model,regression,QAT,rmse,66.32188720247392,0.9674787321270714
+leave one system out,pooled model,regression,QAT,r2,0.42942952326194306,0.031861276966255264
+leave one system out,pooled model,regression,JOR,rmse,54.2697682242695,0.878035185957029
+leave one system out,pooled model,regression,JOR,r2,0.2218168930160623,0.03551049568474639
+leave one system out,pooled model,regression,MAR,rmse,52.35708355101299,1.0195756426238212
+leave one system out,pooled model,regression,MAR,r2,0.2960000799659924,0.02297231411687464
+leave one system out,pooled model,regression,PSE,rmse,55.34184102827762,0.813292590739077
+leave one system out,pooled model,regression,PSE,r2,0.29228546156307655,0.015300663021832514
+leave one system out,other five systems,regression,ARE,rmse,80.71386492844172,1.6610988539637979
+leave one system out,other five systems,regression,ARE,r2,0.3643633527423885,0.0171361199714243
+leave one system out,other five systems,regression,SAU,rmse,59.34007338245662,0.9941363105932821
+leave one system out,other five systems,regression,SAU,r2,0.1796841756685562,0.02404718305530924
+leave one system out,other five systems,regression,QAT,rmse,66.82655575556052,0.9370014824044913
+leave one system out,other five systems,regression,QAT,r2,0.42131764229390667,0.029356132318901447
+leave one system out,other five systems,regression,JOR,rmse,55.09571873896268,0.8372101783985445
+leave one system out,other five systems,regression,JOR,r2,0.19812070433417128,0.03534881508653563
+leave one system out,other five systems,regression,MAR,rmse,54.01967774875156,1.0509770190168328
+leave one system out,other five systems,regression,MAR,r2,0.25084579786217626,0.02231689141272494
+leave one system out,other five systems,regression,PSE,rmse,55.89102566511915,0.8371339641700852
+leave one system out,other five systems,regression,PSE,r2,0.27816660038689117,0.015768480760388975
+leave one system out,gain of other five systems,regression,ARE,rmse,-6.341527846570809,0.8086168889006727
+leave one system out,gain of other five systems,regression,ARE,r2,-0.09607418226667382,0.012541165254632938
+leave one system out,gain of other five systems,regression,SAU,rmse,-0.8306642683088279,0.26880585292668874
+leave one system out,gain of other five systems,regression,SAU,r2,-0.023042763718533435,0.007624265207190158
+leave one system out,gain of other five systems,regression,QAT,rmse,-0.504668553086604,0.3081136023536727
+leave one system out,gain of other five systems,regression,QAT,r2,-0.008111880968036356,0.005217793342003417
+leave one system out,gain of other five systems,regression,JOR,rmse,-0.8259505146931824,0.17701733577707335
+leave one system out,gain of other five systems,regression,JOR,r2,-0.023696188681891012,0.005119082448506869
+leave one system out,gain of other five systems,regression,MAR,rmse,-1.6625941977385807,0.4087694643118687
+leave one system out,gain of other five systems,regression,MAR,r2,-0.045154282103816154,0.010836397032837477
+leave one system out,gain of other five systems,regression,PSE,rmse,-0.5491846368415216,0.15614752717079958
+leave one system out,gain of other five systems,regression,PSE,r2,-0.01411886117618542,0.004027437443062904
+one model per system,pooled model,classification,pooled,roc_auc,0.8185836542762226,0.0036321957630390156
+one model per system,pooled model,classification,pooled,balanced_acc,0.7350098443165207,0.0035170448885885304
+one model per system,pooled model,classification,ARE,roc_auc,0.824302842849877,0.005508724629985536
+one model per system,pooled model,classification,ARE,balanced_acc,0.7237568611583897,0.006658818433071579
+one model per system,pooled model,classification,SAU,roc_auc,0.7261838731967748,0.007413152450025348
+one model per system,pooled model,classification,SAU,balanced_acc,0.6599969306663411,0.00760368075133254
+one model per system,pooled model,classification,QAT,roc_auc,0.8135099162328341,0.013396751131206527
+one model per system,pooled model,classification,QAT,balanced_acc,0.7331330176307709,0.011784931032324232
+one model per system,pooled model,classification,JOR,roc_auc,0.7713991323313204,0.014203318053826101
+one model per system,pooled model,classification,JOR,balanced_acc,0.6778419808138205,0.012383071777585802
+one model per system,pooled model,classification,MAR,roc_auc,0.8089447425601382,0.015351454764163133
+one model per system,pooled model,classification,MAR,balanced_acc,0.654839953032684,0.020723303099596253
+one model per system,pooled model,classification,PSE,roc_auc,0.783127288596005,0.0130458041671887
+one model per system,pooled model,classification,PSE,balanced_acc,0.6617680462199581,0.01331866771902162
+one model per system,own model,classification,pooled,roc_auc,0.7956826151621308,0.004703134138156363
+one model per system,own model,classification,pooled,balanced_acc,0.7168755407531144,0.0045079064614981425
+one model per system,own model,classification,ARE,roc_auc,0.8268732654645554,0.00454475926720916
+one model per system,own model,classification,ARE,balanced_acc,0.7445277932389185,0.004802164264018133
+one model per system,own model,classification,SAU,roc_auc,0.7105166185770401,0.0069273331575374335
+one model per system,own model,classification,SAU,balanced_acc,0.6510931384979733,0.008039931085809698
+one model per system,own model,classification,QAT,roc_auc,0.8065201903505985,0.017099780380335484
+one model per system,own model,classification,QAT,balanced_acc,0.7334774612950274,0.014609262729206212
+one model per system,own model,classification,JOR,roc_auc,0.7539666327743259,0.017238426904780776
+one model per system,own model,classification,JOR,balanced_acc,0.68072228403913,0.01397583607276907
+one model per system,own model,classification,MAR,roc_auc,0.7967199961410224,0.01657237457874624
+one model per system,own model,classification,MAR,balanced_acc,0.7119562003565949,0.016488949157781714
+one model per system,own model,classification,PSE,roc_auc,0.7656684957281961,0.01288854109110957
+one model per system,own model,classification,PSE,balanced_acc,0.6946065971602022,0.010189480703803993
+one model per system,gain of own model,classification,pooled,roc_auc,-0.022901039114091894,0.0031768162578650156
+one model per system,gain of own model,classification,pooled,balanced_acc,-0.01813430356340643,0.0036728631730042274
+one model per system,gain of own model,classification,ARE,roc_auc,0.0025704226146782533,0.0024642518637174315
+one model per system,gain of own model,classification,ARE,balanced_acc,0.020770932080528652,0.005876202706548947
+one model per system,gain of own model,classification,SAU,roc_auc,-0.015667254619734793,0.006919858091195233
+one model per system,gain of own model,classification,SAU,balanced_acc,-0.00890379216836782,0.010221064848383308
+one model per system,gain of own model,classification,QAT,roc_auc,-0.006989725882235581,0.0059642844629800565
+one model per system,gain of own model,classification,QAT,balanced_acc,0.00034444366425659504,0.006783017358102137
+one model per system,gain of own model,classification,JOR,roc_auc,-0.017432499556994552,0.009238111505499151
+one model per system,gain of own model,classification,JOR,balanced_acc,0.0028803032253094216,0.009422441614324064
+one model per system,gain of own model,classification,MAR,roc_auc,-0.01222474641911574,0.009475263908781003
+one model per system,gain of own model,classification,MAR,balanced_acc,0.05711624732391095,0.015871160147765673
+one model per system,gain of own model,classification,PSE,roc_auc,-0.017458792867808774,0.004848731822459617
+one model per system,gain of own model,classification,PSE,balanced_acc,0.032838550940244154,0.011734417849068653
+one model per system,pooled model,regression,pooled,rmse,60.74972179882876,0.3279375726474116
+one model per system,pooled model,regression,pooled,r2,0.4284952393040718,0.011708713211759451
+one model per system,pooled model,regression,ARE,rmse,74.37233708187091,1.220870616004281
+one model per system,pooled model,regression,ARE,r2,0.4604375350090623,0.008725196148070389
+one model per system,pooled model,regression,SAU,rmse,58.5094091141478,0.9176605276195046
+one model per system,pooled model,regression,SAU,r2,0.20272693938708958,0.01971401103745219
+one model per system,pooled model,regression,QAT,rmse,66.32188720247392,0.9674787321270714
+one model per system,pooled model,regression,QAT,r2,0.42942952326194306,0.031861276966255264
+one model per system,pooled model,regression,JOR,rmse,54.2697682242695,0.878035185957029
+one model per system,pooled model,regression,JOR,r2,0.2218168930160623,0.03551049568474639
+one model per system,pooled model,regression,MAR,rmse,52.35708355101299,1.0195756426238212
+one model per system,pooled model,regression,MAR,r2,0.2960000799659924,0.02297231411687464
+one model per system,pooled model,regression,PSE,rmse,55.34184102827762,0.813292590739077
+one model per system,pooled model,regression,PSE,r2,0.29228546156307655,0.015300663021832514
+one model per system,own model,regression,pooled,rmse,61.16436884262363,0.30023352651266616
+one model per system,own model,regression,pooled,r2,0.42055086706337425,0.013077433561024076
+one model per system,own model,regression,ARE,rmse,73.98972017864426,0.9800211566139821
+one model per system,own model,regression,ARE,r2,0.46588796777460806,0.007353910966061823
+one model per system,own model,regression,SAU,rmse,58.91213212752596,0.7811705468667304
+one model per system,own model,regression,SAU,r2,0.1920037767071518,0.013978662815033184
+one model per system,own model,regression,QAT,rmse,67.60357408918534,1.1425490137142256
+one model per system,own model,regression,QAT,r2,0.40493049499001044,0.043227105237959876
+one model per system,own model,regression,JOR,rmse,54.03814450697227,0.8552799023037523
+one model per system,own model,regression,JOR,r2,0.22890853979041817,0.03264561421510872
+one model per system,own model,regression,MAR,rmse,52.76883582168982,1.0447608264817383
+one model per system,own model,regression,MAR,r2,0.2842253387435792,0.027552910169991045
+one model per system,own model,regression,PSE,rmse,56.424405265962676,0.8709459122854775
+one model per system,own model,regression,PSE,r2,0.264369405284676,0.015267636514034405
+one model per system,gain of own model,regression,pooled,rmse,-0.4146470437948584,0.26760946379974815
+one model per system,gain of own model,regression,pooled,r2,-0.007944372240697514,0.0050975493591249735
+one model per system,gain of own model,regression,ARE,rmse,0.3826169032266751,0.42299225248631217
+one model per system,gain of own model,regression,ARE,r2,0.0054504327655457065,0.00607103314395269
+one model per system,gain of own model,regression,SAU,rmse,-0.4027230133781671,0.521302784052775
+one model per system,gain of own model,regression,SAU,r2,-0.010723162679937812,0.01427865959611413
+one model per system,gain of own model,regression,QAT,rmse,-1.2816868867114146,0.6802241673265105
+one model per system,gain of own model,regression,QAT,r2,-0.024499028271932493,0.013513133998996632
+one model per system,gain of own model,regression,JOR,rmse,0.23162371729722805,0.47355533308953535
+one model per system,gain of own model,regression,JOR,r2,0.0070916467743558365,0.01356503342276396
+one model per system,gain of own model,regression,MAR,rmse,-0.4117522706768151,0.45753268630999505
+one model per system,gain of own model,regression,MAR,r2,-0.011774741222413232,0.012210927277045043
+one model per system,gain of own model,regression,PSE,rmse,-1.0825642376850566,0.3089343527374537
+one model per system,gain of own model,regression,PSE,r2,-0.027916056278400558,0.007841085543944913
+ensemble,gradient boosting,classification,pooled,roc_auc,0.8185836542762226,0.0036321957630390156
+ensemble,gradient boosting,classification,pooled,balanced_acc,0.7350098443165207,0.0035170448885885304
+ensemble,MLP,classification,pooled,roc_auc,0.8121888666675599,0.004279666210238913
+ensemble,MLP,classification,pooled,balanced_acc,0.7297174843336138,0.0044544382803943725
+ensemble,average,classification,pooled,roc_auc,0.8194472545111084,0.0038211006505782736
+ensemble,average,classification,pooled,balanced_acc,0.7354233478404439,0.0036341499961589046
+ensemble,gain of MLP,classification,pooled,roc_auc,-0.006394787608662739,0.0018259517061550254
+ensemble,gain of MLP,classification,pooled,balanced_acc,-0.0052923599829067915,0.0030805712548017962
+ensemble,gain of average,classification,pooled,roc_auc,0.0008636002348860484,0.0008669038636107554
+ensemble,gain of average,classification,pooled,balanced_acc,0.00041350352392312663,0.0018844254088653326
+ensemble,gradient boosting,regression,pooled,rmse,60.74972179882876,0.3279375726474116
+ensemble,gradient boosting,regression,pooled,r2,0.4284952393040718,0.011708713211759451
+ensemble,MLP,regression,pooled,rmse,61.65276413164476,0.278287546218801
+ensemble,MLP,regression,pooled,r2,0.41145344412035706,0.010791015196948575
+ensemble,average,regression,pooled,rmse,60.74926826420997,0.29004344026637424
+ensemble,average,regression,pooled,r2,0.4285537215617194,0.010877280239597002
+ensemble,gain of MLP,regression,pooled,rmse,-0.9030423328159835,0.19627647947252
+ensemble,gain of MLP,regression,pooled,r2,-0.01704179518371471,0.0036992745942715467
+ensemble,gain of average,regression,pooled,rmse,0.0004535346188076529,0.09715402313239722
+ensemble,gain of average,regression,pooled,r2,5.848225764761631e-05,0.0018518802441046453
