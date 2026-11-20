@@ -1,0 +1,10 @@
+{
+  "classification": {
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 31
+  },
+  "regression": {
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 63
+  }
+}

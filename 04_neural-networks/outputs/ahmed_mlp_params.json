@@ -1,0 +1,16 @@
+{
+  "classification": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.01
+  },
+  "regression": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.01
+  }
+}

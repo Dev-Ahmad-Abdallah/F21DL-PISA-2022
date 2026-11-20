@@ -1,0 +1,9 @@
+model,task,metric,score,se
+gradient_boosting,classification,roc_auc,0.8185836542762226,0.0036321957630390156
+gradient_boosting,classification,pr_auc,0.903356419577136,0.0023275122149531424
+gradient_boosting,classification,balanced_acc,0.7350098443165207,0.0035170448885885304
+gradient_boosting,classification,recall_below,0.8230587096994597,0.004248450408141244
+gradient_boosting,classification,recall_above,0.6469609789335713,0.009360720231161685
+gradient_boosting,regression,rmse,60.74972179882876,0.3279375726474116
+gradient_boosting,regression,mae,47.674950179960774,0.2762854721212754
+gradient_boosting,regression,r2,0.4284952393040718,0.011708713211759451
