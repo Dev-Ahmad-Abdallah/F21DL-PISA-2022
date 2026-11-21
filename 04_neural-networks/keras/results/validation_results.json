@@ -1,0 +1,17 @@
+{
+  "model": "Basic CNN without blank fitting images",
+  "framework": "TensorFlow/Keras",
+  "split": "validation",
+  "seed": 42,
+  "accuracy": 0.8709077380952381,
+  "macro_f1": 0.8710186992703631,
+  "loss": 0.4381053149700165,
+  "best_epoch": 5,
+  "epochs_run": 10,
+  "parameters": 336220,
+  "training_seconds": 43.59906862501521,
+  "training_accuracy": 0.942237913608551,
+  "training_macro_f1": 0.9422877963372908,
+  "training_loss": 0.17672105133533478,
+  "training_minus_validation_accuracy": 0.07133017551331289
+}

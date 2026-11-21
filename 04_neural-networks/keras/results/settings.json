@@ -1,0 +1,32 @@
+{
+  "model": "Basic CNN without blank fitting images",
+  "training_images": 10751,
+  "validation_images": 2688,
+  "excluded_fitting_rows": [
+    6050
+  ],
+  "training_filter": "exclude all-zero fitting images only",
+  "framework": "TensorFlow/Keras",
+  "seed": 42,
+  "filters": [
+    64,
+    64
+  ],
+  "kernel_size": [
+    3,
+    3
+  ],
+  "padding": "valid",
+  "dense_units": 128,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "maximum_epochs": 30,
+  "early_stopping_patience": 5,
+  "selection_metric": "validation_loss",
+  "dropout": false,
+  "augmentation": false,
+  "pretrained": false,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1"
+}

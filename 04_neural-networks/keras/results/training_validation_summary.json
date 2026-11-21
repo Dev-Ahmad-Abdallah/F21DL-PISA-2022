@@ -1,0 +1,16 @@
+[
+  {
+    "split":"Training",
+    "images":10751,
+    "loss":0.1767210513,
+    "accuracy":0.9422379136,
+    "macro_f1":0.9422877963
+  },
+  {
+    "split":"Validation",
+    "images":2688,
+    "loss":0.438105315,
+    "accuracy":0.8709077381,
+    "macro_f1":0.8710186993
+  }
+]
