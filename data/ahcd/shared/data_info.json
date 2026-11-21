@@ -1,0 +1,28 @@
+{
+  "dataset": "AHCD",
+  "source": "https://www.kaggle.com/datasets/mloey1/ahcd1",
+  "authors_repository": "https://github.com/mloey/Arabic-Handwritten-Characters-Dataset",
+  "source_archive": "AHCD.zip",
+  "source_images": "csvTrainImages 13440x1024.csv",
+  "source_labels": "csvTrainLabel 13440x1.csv",
+  "images": 13440,
+  "classes": 28,
+  "shape_per_image": [
+    1,
+    32,
+    32
+  ],
+  "stored_dtype": "uint8",
+  "pixel_range": [
+    0,
+    255
+  ],
+  "orientation": "reshape 32 by 32 then transpose each image once",
+  "label_mapping": "internal labels 0 to 27 correspond to original labels 1 to 28",
+  "validation_fraction": 0.2,
+  "split_seed": 42,
+  "split_method": "stratified image level split of the supplied training portion",
+  "training_images": 10752,
+  "validation_images": 2688,
+  "test_policy": "Original test portion is separate and is not used by this notebook."
+}
